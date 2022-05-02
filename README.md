@@ -1,6 +1,5 @@
 # TypeScript 알고리즘 연습
 
-# LeetCode Solutions in TypeScript
 > https://github.com/axross/leetcode-typescript 에서 영감을 받아 만들었습니다.
 
 ![Build](https://github.com/serithemage/typescript_algorithm_exercise/workflows/on%20Push/badge.svg)
