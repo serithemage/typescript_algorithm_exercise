@@ -4,7 +4,7 @@
 
 ![Build](https://github.com/serithemage/typescript_algorithm_exercise/workflows/on%20Push/badge.svg)
 
-- 🏃‍♀️ 시간 및 공간복잡성에 대한 최적화
+- 🏃‍♀️ (가급적)시간 및 공간복잡성에 대한 최적화(를 하려고 노력하고 있음)
 - 💯 [Deno](https://deno.land) 에서 테스트/실행됩니다.
 - ✅ 테스트 코드 포함
 - 🗣 설명 포함
