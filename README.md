@@ -2,7 +2,7 @@
 
 > https://github.com/axross/leetcode-typescript 에서 영감을 받아 만들었습니다.
 
-![Build](https://github.com/serithemage/typescript_algorithm_exercise/workflows/on%20Push/badge.svg)
+![Build](https://github.com/serithemage/typescript_algorithm_exercise/workflows/UnitTest/badge.svg)
 
 - 🏃‍♀️ (가급적)시간 및 공간복잡성에 대한 최적화(를 하려고 노력하고 있음)
 - 💯 [Deno](https://deno.land) 에서 테스트/실행됩니다.
