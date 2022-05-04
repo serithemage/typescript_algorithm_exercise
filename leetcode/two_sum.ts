@@ -1,12 +1,16 @@
+// 1. Two Sum
+// https://leetcode.com/problems/two-sum/
 export default function twoSum(nums: number[], target: number): number[] {
-  var result = [0, 0]
 
-  for (let idx1 = 0; idx1 < nums.length; idx1++) {
-    for (let idx2 = idx1 + 1; idx2 < nums.length; idx2++) {
-      if (nums[idx1] + nums[idx2] == target) {
-        result = [idx1, idx2]
-      }
+  //Map<number, index> 
+  const map = new Map<number, number>()
+
+  for (let index = 0; index < nums.length; index++) {
+    const differenceNumberIndex = map.get(target - nums[index])
+    if (differenceNumberIndex != undefined) {
+      return [differenceNumberIndex, index]
     }
+    map.set(nums[index], index)
   }
-  return result
+  throw new Error("There is no answer.")
 }
