@@ -22,3 +22,12 @@ export default function addBinary(a: string, b: string): string {
 
   return isCarrying ? "1" + result : result;
 }
+
+
+
+import { assertStrictEquals } from "https://deno.land/std@0.137.0/testing/asserts.ts";
+
+Deno.test("67. Add Binary", () => {
+  assertStrictEquals(addBinary("11", "01"), "100");
+  assertStrictEquals(addBinary("1010", "1011"), "10101");
+});
